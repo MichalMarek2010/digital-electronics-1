@@ -1,10 +1,10 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: YOUR_FIRSTNAME LASTNAME 
 
 ### De Morgan's laws
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-
+Majky
 
 
 

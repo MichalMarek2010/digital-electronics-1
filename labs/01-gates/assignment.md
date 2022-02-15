@@ -5,8 +5,11 @@
 1. Equations of all three versions of logic function f(c,b,a):
 
 Majky
-
-
+badagada
+badagada
+badagada
+badagada
+badagada
 
 
 

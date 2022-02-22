@@ -4,15 +4,6 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-Majky
-badagada
-badagada
-badagada
-badagada
-badagada
-
-
-
    ![Logic function](images/equations.png)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
@@ -47,4 +38,4 @@ end architecture dataflow;
 
 2. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [https://www.edaplayground.com/x/rFWL](https://www.edaplayground.com/...)

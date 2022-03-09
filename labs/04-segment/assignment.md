@@ -12,11 +12,54 @@
         -- First test case
         s_hex <= "0000"; wait for 50 ns;
         assert (s_seg = "0000001")
-        report "Input combination 0000 FAILED" severity error;
-
+        report "Input combination 0000 FAILED" severity error; --0         
+        s_hex <= "0001"; wait for 50 ns;
+        assert (s_seg = "1001111")
+        report "Input combination 0000 FAILED" severity error; -- 1
+        s_hex <= "0010"; wait for 50 ns;
+        assert (s_seg = "0010010")
+        report "Input combination 0000 FAILED" severity error; -- 2
+        s_hex <= "0011"; wait for 50 ns;
+        assert (s_seg = "0000110")
+        report "Input combination 0000 FAILED" severity error; -- 3
+        s_hex <= "0100"; wait for 50 ns;
+        assert (s_seg = "1001100")
+        report "Input combination 0000 FAILED" severity error; -- 4
+        s_hex <= "0101"; wait for 50 ns;
+        assert (s_seg = "0100100")
+        report "Input combination 0000 FAILED" severity error; -- 5
+        s_hex <= "0110"; wait for 50 ns;
+        assert (s_seg = "0100000")
+        report "Input combination 0000 FAILED" severity error; -- 6
+        s_hex <= "0111"; wait for 50 ns;
+        assert (s_seg = "0001111")
+        report "Input combination 0000 FAILED" severity error; -- 7
+        s_hex <= "1000"; wait for 50 ns;
+        assert (s_seg = "0000000")
+        report "Input combination 0000 FAILED" severity error; -- 8
+        s_hex <= "1001"; wait for 50 ns;
+        assert (s_seg = "0000100")
+        report "Input combination 0000 FAILED" severity error; -- 9
+        s_hex <= "1010"; wait for 50 ns;
+        assert (s_seg = "0001000")
+        report "Input combination 0000 FAILED" severity error; -- A
+        s_hex <= "1011"; wait for 50 ns;
+        assert (s_seg = "1100000")
+        report "Input combination 0000 FAILED" severity error; -- b
+        s_hex <= "1100"; wait for 50 ns;
+        assert (s_seg = "0110001")
+        report "Input combination 0000 FAILED" severity error; -- C
+        s_hex <= "1101"; wait for 50 ns;
+        assert (s_seg = "1000010")
+        report "Input combination 0000 FAILED" severity error; -- D
+        s_hex <= "1110"; wait for 50 ns;
+        assert (s_seg = "0110000")
+        report "Input combination 0000 FAILED" severity error; -- E
+        s_hex <= "1111"; wait for 50 ns;
+        assert (s_seg = "0111000")
+        report "Input combination 0000 FAILED" severity error; -- F
 
         -- WRITE OTHER TEST CASES HERE
-
 
         report "Stimulus process finished" severity note;
         wait;

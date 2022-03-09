@@ -12,7 +12,7 @@
         -- First test case
         s_hex <= "0000"; wait for 50 ns;
         assert (s_seg = "0000001")
-        report "Input combination 0000 FAILED" severity error; --0         
+        report "Input combination 0000 FAILED" severity error; -- 0         
         s_hex <= "0001"; wait for 50 ns;
         assert (s_seg = "1001111")
         report "Input combination 0000 FAILED" severity error; -- 1

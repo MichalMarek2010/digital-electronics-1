@@ -1,6 +1,6 @@
 ## 1. Preparation tasks
 ### Characteristic equations and completed tables for D, JK, T flip-flops
-![rovnice](Images/rovnice.png)
+![rovnice](images/rovnice.png)
 | **D** | **Qn** | **Q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-- |
 | 0 | 0 | 0 | No change |

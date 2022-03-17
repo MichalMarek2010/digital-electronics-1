@@ -12,7 +12,7 @@ The Nexys A7 board provides five push buttons for user applications.
    ![clock period](images/freq.png)  1*10^-7 sec
    &nbsp;
 
-   ![number of periods](images/periods.png)  (2*10^-3)/10^-7 = 20000 
+   ![number of periods](images/periods.png)  (2*10^-3)/10^-7 = 200 000 
    &nbsp;
    <!--
    https://editor.codecogs.com/

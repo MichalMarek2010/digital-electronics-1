@@ -4,7 +4,7 @@
 
 1. Figure of state diagram:
 
-   ![your figure]()
+   ![your figure](images/state1.jpg)
 
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -105,7 +105,7 @@
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![your figure](images/sim.jpg)
 
 ### Smart controller
 
@@ -122,4 +122,4 @@
 
 1. State table for smart controller using two sensors and two traffic lights in three colors.
 2. 
-   ![your figure]()
+   ![your figure](images/state2.jpg)

@@ -109,4 +109,14 @@
 
 ### Smart controller
 
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **CAR sensor WEST/SOUTH** |
+| :-- | :-: | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec | =>`WEST_GO` |
+| `WEST_GO`    | red    | green | 4 sec | `10` or `00`=>`WEST_GO` else =>`WEST_WAIT` |
+| `WEST_WAIT`  | red    | yellow | 2 sec | =>`STOP2` |
+| `STOP2`      | red    | red | 1 sec | =>`SOUTH_GO` |
+| `SOUTH_GO`   | green  | red | 4 sec | `01` or `00`=>`SOUTH_GO` else =>`SOUTH_WAIT` |
+| `SOUTH_WAIT` | yellow | red | 2 sec | =>`STOP1` |
+### State diagram
+
 1. State table for smart controller using two sensors and two traffic lights in three colors.
